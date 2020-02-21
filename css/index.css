@@ -1,0 +1,17 @@
+.btn-chat {
+    border: none;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.btn-chat:hover {
+    color: white;
+}
+
+.chat-zone {
+    height: 60vh;
+    overflow: auto;
+}

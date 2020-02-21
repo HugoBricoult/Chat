@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(30%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login h2 {
+    margin: 0;
+    margin: auto;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: rgb(109, 119, 129);
+    ;
+}
+
+.login p {
+    margin: auto;
+}
+
+.login form {
+    margin: auto;
+    border: 3px solid rgb(109, 119, 129);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    position: relative;
+    width: 300px;
+    background-color: rgb(239, 238, 255);
+    margin-top: 30px;
+}
+
+.login span {
+    padding: 5px;
+    color: rgb(255, 59, 59);
+    ;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.form-group input[type="text"],
+input[type="password"] {
+    padding: 5px;
+    border: 1px solid lightgray;
+    font-size: 1.2em;
+}
+
+.form-group input[type="submit"] {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+.has-error input[type="password"] {
+    border: 1px solid rgb(255, 59, 59);
+}
+
+.has-error input[type="text"] {
+    border: 1px solid rgb(255, 59, 59);
+}
+
+.circle {
+    display: block;
+    position: absolute;
+    background-color: rgb(207, 216, 228);
+    border-radius: 50%;
+}
+
+.round1 {
+    top: -50px;
+    left: -50px;
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(109, 119, 129);
+}
+
+.round2 {
+    top: 150px;
+    left: 300px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid rgb(109, 119, 129);
+}
+
+.round3 {
+    top: 400px;
+    left: 150px;
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(109, 119, 129);
+}
+
+.rect {
+    display: block;
+    position: absolute;
+    background-color: rgb(207, 216, 228);
+}
+
+.rect1 {
+    top: 176px;
+    left: 200px;
+    width: 200px;
+    height: 30px;
+    transform: rotate(25deg);
+}
+
+.rect2 {
+    top: 350px;
+    left: 133px;
+    width: 250px;
+    height: 20px;
+    transform: rotate(-49deg);
+}
+
+.titre {
+    display: block;
+    position: absolute;
+    color: rgb(207, 216, 228);
+    top: 200px;
+    right: 100px;
+    font-size: 6em;
+    font-weight: bolder;
+    text-shadow: 3px 0 0 rgb(109, 119, 129), -3px 0 0 rgb(109, 119, 129), 0 3px 0 rgb(109, 119, 129), 0 -3px 0 rgb(109, 119, 129), 1px 1px rgb(109, 119, 129), -1px -1px 0 rgb(109, 119, 129), 1px -1px 0 rgb(109, 119, 129), -1px 1px 0 rgb(109, 119, 129);
+    ;
+}
